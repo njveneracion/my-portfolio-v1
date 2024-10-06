@@ -84,7 +84,7 @@ header nav a:hover {
         left: 0;
         width: 100%;
         text-align: center;
-        background: #a8a8a8; /* Solid background for simplicity */
+        background: #ffffff; /* Solid background for simplicity */
         transition: height 0.3s ease-in-out;
         z-index: 999;
     }
@@ -95,15 +95,16 @@ header nav a:hover {
 
     .nav-links a {
         display: block;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 10px;
-        margin: 0;
+        margin: 0 100px;
         text-decoration: none;
         transition: background-color 0.3s ease;
     }
 
     .nav-links a:hover {
-        background-color: rgba(255, 255, 255, 0.1); /* Simple hover effect */
+        background-color: rgba(7, 7, 7, 0.1); /* Simple hover effect */
+        color: black;
     }
 }
 
@@ -600,17 +601,14 @@ justify-content: center;
   }
   
   .form-control {
-    width: 100%;
-    padding: 12px;
+    width: 95%;
+    padding: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
     color: #333;
   }
   
-  textarea.form-control {
-    resize: vertical;
-  }
   
   /* Button Styling */
   .btn-submit {
@@ -635,8 +633,9 @@ justify-content: center;
     }
   
     .form-control {
-      padding: 10px;
+      padding: 10px ;
       font-size: 0.9rem;
+      
     }
   
     .btn-submit {
